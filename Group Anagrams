@@ -1,0 +1,22 @@
+class Solution {
+public:
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        
+        unordered_map<string,vector<string>> m1;
+        vector<vector<string>> res;
+        
+        /*creating key and adding strings*/
+        for(int i=0;i<strs.size();i++)
+        {
+            
+            string s=strs[i];
+            sort(s.begin(), s.end());
+            m1[s].push_back(strs[i]);
+        }
+        for (const auto & [ key, value ] : m1) 
+                 {
+                     res.push_back(value);
+                 }
+                return res;
+    }
+};
