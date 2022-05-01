@@ -1,2 +1,2 @@
-# LeetCodeSolved_April2022
-I upload all my codes which I solved at competitive programming platforms.
+# LeetCodeSolved_30daysApril
+Leetcode question solved while taking up #30daysofcode challenge in April 2022.
